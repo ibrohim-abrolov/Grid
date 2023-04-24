@@ -67,15 +67,15 @@ body {
 }
 
 .grid-parent {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(4, 310px);
     grid-template-rows: repeat(7, 200px);
     gap: 40px;
 }
 
 .grid-item:first-child {
-    height: 200px;
     background-image: url('./images/first.png');
+    background-size: cover;
 }
 .grid-item:first-child > h3 {
     padding-top: 114px;
@@ -83,9 +83,8 @@ body {
 
 
 .grid-item:nth-child(2) {
-    height: 400px;
     background-image: url('./images/second.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 1 / 3;
     grid-column: 2 / 3;
 }
@@ -95,17 +94,16 @@ body {
 }
 
 .grid-item:nth-child(3) {
-    height: 200px;
     background-image: url('./images/third.png');
+    background-size: cover;
 }
 .grid-item:nth-child(3) > h3 {
     padding-top: 114px;
 }
 
 .grid-item:nth-child(4) {
-    height: 400px;
     background-image: url('./images/fourth.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-column: 4 / 5;
     grid-row: 1 / 3;
 }
@@ -116,9 +114,8 @@ body {
 }
 
 .grid-item:nth-child(5) {
-    height: 400px;
     background-image: url('./images/fifth.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 2 / 4;
     grid-column: 1 / 2;
 }
@@ -128,9 +125,8 @@ body {
 }
 
 .grid-item:nth-child(6) {
-    height: 600px;
     background-image: url('./images/seventh.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 2 / 5;
     grid-column: 3 / 4;
 }
@@ -139,9 +135,9 @@ body {
     margin-bottom: 6px;
 }
 
-.grid-item:nth-child(7) {
-    height: 200px;
+.grid-item:nth-child(7) { 
     background-image: url('./images/sixth.png');
+    background-size: cover;
 }
 .grid-item:nth-child(7) > h3 {
     padding-top: 85px;
@@ -149,6 +145,7 @@ body {
 
 .grid-item:nth-child(8) {
     background-image: url('./images/eighth.png');
+    background-size: cover;
 }
 .grid-item:nth-child(8) > h3 {
     padding-top: 85px;
@@ -156,9 +153,8 @@ body {
 }
 
 .grid-item:nth-child(9) {
-    height: 600px;
     background-image: url('./images/nineth.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 4 / 7;
     grid-column: 1 / 2;
 }
@@ -168,9 +164,8 @@ body {
 }
 
 .grid-item:nth-child(10) {
-    height: 400px;
     background-image: url('./images/tenth.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 4 / 6;
     grid-column: 2 / 3;
 }
@@ -180,17 +175,16 @@ body {
 
 
 .grid-item:nth-child(11) {
-    height: 200px;
     background-image: url('./images/solo.png');
+    background-size: cover;
 }
 .grid-item:nth-child(11) > h3 {
     padding-top: 85px;
 }
 
 .grid-item:nth-child(12) {
-    height: 400px;
     background-image: url('./images/eleventh.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 5 / 7;
     grid-column: 3 / 4;
 }
@@ -199,9 +193,8 @@ body {
 }
 
 .grid-item:nth-child(13) {
-    height: 600px;
     background-image: url('./images/last.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 5 / 8;
     grid-column: 4 / 5;
 }
@@ -210,9 +203,8 @@ body {
 }
 
 .grid-item:nth-child(14) {
-    height: 400px;
     background-image: url('./images/fouteenth.png');
-    background-repeat: no-repeat;
+    background-size: cover;
     grid-row: 6 / 8;
     grid-column: 2 / 3;
 }
@@ -221,16 +213,16 @@ body {
 }
 
 .grid-item:nth-child(15) {
-    height: 200px;
     background-image: url('./images/same.png');
+    background-size: cover;
 }
 .grid-item:nth-child(15) > h3 {
     padding-top: 85px;
 }
 
 .grid-item:nth-child(16) {
-    height: 200px;
     background-image: url('./images/thirteenth.png');
+    background-size: cover;
 }
 .grid-item:nth-child(16) > h3 {
     padding-top: 85px;
@@ -238,8 +230,8 @@ body {
 }
 
 .grid-item:nth-child(17) {
-    height: 200px;
     background-image: url('./images/fifteenth.png');
+    background-size: cover;
 }
 
 h3 {
